@@ -1,5 +1,6 @@
 config:
   info:  this is dev  .......
 eureka:
-  service-url:
-    defaultZone: http://whw521.com:7002/eureka/
+  client:
+   service-url:
+     defaultZone: http://whw521.com:7002/eureka/
